@@ -1,0 +1,29 @@
+comment well
+regex for frontend validation
+confirm email
+forgot password
+change password
+include config file after the if-statement of the $_POST['submit']
+consider using inc.php
+favicon
+
+
+
+show number of seats available
+how many seats to be taken
+prevent bookings when bus is full
+user can revoke booking
+
+sorting for admin--- see bookings according to those leaving campus
+    those coming to campus, time of takeoff, etc
+admins should be able to send message to a particular person
+revoke booking,close booking, extend booking number etc
+receipt/ticket generation for users
+
+
+a log
+---faddal revoked someones booking
+---czarina extended the booking time
+etc
+
+client-side validation
