@@ -27,3 +27,11 @@ a log
 etc
 
 client-side validation
+
+
+DEPLOYMENT REMINDERS
+When deploying, use cdns for fontawesome and other dependenceies
+change url paths -- no localhost somewhere
+apply web optimization tips, like minifying, compressing images etc
+potential php errors such header errors
+no sensitive information should be uploaded
