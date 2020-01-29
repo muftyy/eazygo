@@ -10,4 +10,6 @@ To test this app import the tables from the database folder into your own; creat
 
 If you find any bugs or have any suggestions, I am all ears
 
+And oh, the app is hosted here https://eazygo.herokuapp.com/ and https://eazygoo.000webhostapp.com/
+
 
