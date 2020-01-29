@@ -10,6 +10,6 @@
 	$conn = mysqli_connect($host, $username, $password, $db);
 
 	/*check connections*/
-	if(!$conn) echo "Connection Error".mysqli_connect_error();
+	if(!$conn) echo "Connection Error: ".mysqli_connect_error();
 
  ?>

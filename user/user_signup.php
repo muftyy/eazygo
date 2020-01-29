@@ -3,7 +3,6 @@
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\Exception;
 
-  // use PHPMailer\PHPMailer\src\PHPMailer;
 
   include '../admin/config/db_connect.php';
 
@@ -66,7 +65,7 @@
             //inserting user data into database
             $sql = "INSERT INTO user(fullname,email,password,verified,token) VALUES('$fullname','$email','$password_hashed','$verified','$token')";
             if(mysqli_query($conn,$sql)){
-                // use PHPMailer\PHPMailer\PHPMailer;
+                //sending the user a verification email with php mailer
 
                 require 'vendor/autoload.php';
 
@@ -78,8 +77,8 @@
                 $mail->isSMTP();                        // Set mailer to use SMTP
                 $mail->Host       = 'smtp.gmail.com;';    // Specify main SMTP server
                 $mail->SMTPAuth   = true;               // Enable SMTP authentication
-                $mail->Username   = 'faddalibrahim@gmail.com';     // SMTP username
-                $mail->Password   = 'F@dd@l1Ibr@him8';         // SMTP password
+                $mail->Username   = 'eazygoo2020@gmail.com';     // SMTP username
+                $mail->Password   = 'Eazy_Goo_2020';         // SMTP password
                 $mail->SMTPSecure = 'tls';              // Enable TLS encryption, 'ssl' also accepted ssl is 465
                 $mail->Port       = 587;                // TCP port to connect to
 
