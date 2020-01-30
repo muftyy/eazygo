@@ -64,7 +64,6 @@
 
 </style>
 <body>
-  <?php echo $_SESSION['verified']; ?>
   
   <?php if(isset($_SESSION['verified']) and $_SESSION['verified'] === '1'): ?>
     <header>
